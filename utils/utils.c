@@ -1,7 +1,7 @@
 #include "utils.h"
 
 float randf(void) {
-    return (float)rand() / RAND_MAX - 0.5f;
+    return (((float)rand() / (float)RAND_MAX) - 0.5f) * 0.5f;
 }
 
 float sigmoid(float x) {
