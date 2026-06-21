@@ -1,14 +1,15 @@
+// gcc main.c layers/*.c utils/*.c -o neural_net.exe && ./neural_net.exe
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 
 #include "layers/dataset.h"
 #include "layers/layer1.h"
 #include "layers/layer2.h"
 #include "layers/output_layer.h"
 
-#define EPOCHS 1000000
+#define EPOCHS 20000
 #define LR     0.5f
 
 int main(void) {
