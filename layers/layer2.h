@@ -9,8 +9,8 @@
 typedef struct {
     float weights[HIDDEN2_ROWS][HIDDEN2_COLS];
     float biases[HIDDEN2_ROWS];
-    float out[HIDDEN2_ROWS];
-    float delta[HIDDEN2_ROWS];
+    float out[HIDDEN2_ROWS]; // Output from activation function
+    float delta[HIDDEN2_ROWS]; // Gradients
 } HiddenLayer2;
 
 HiddenLayer2 layer2_init(void);
