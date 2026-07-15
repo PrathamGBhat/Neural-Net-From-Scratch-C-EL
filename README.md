@@ -1,4 +1,4 @@
-# Neural Net Visualizer — C Implementation
+# Neural Net — C Implementation
 
 A from-scratch implementation of a multi-layer feedforward neural network written in pure C. The network learns the **4-bit parity (XOR) function** — a classic non-linear classification problem — using backpropagation and gradient descent, with no external ML libraries.
 
