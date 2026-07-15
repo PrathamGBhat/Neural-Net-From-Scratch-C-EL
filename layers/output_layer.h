@@ -9,8 +9,8 @@
 typedef struct {
     float weights[OUTPUT_ROWS][OUTPUT_COLS];
     float biases[OUTPUT_ROWS];
-    float out[OUTPUT_ROWS];
-    float delta[OUTPUT_ROWS];
+    float out[OUTPUT_ROWS]; // Outputs from activation function
+    float delta[OUTPUT_ROWS]; // Gradients
 } OutputLayer;
 
 OutputLayer output_init(void);
