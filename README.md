@@ -63,7 +63,7 @@ Neural-Net-Visualizer-C-EL-main/
 ### Compile
 
 ```bash
-gcc main.c layers/dataset.c layers/layer1.c layers/layer2.c layers/output_layer.c utils/utils.c -o main -lm
+gcc main.c layers/*.c utils/*.c -o neural_net.exe && ./neural_net.exe -lm
 ```
 
 ### Run

@@ -1,5 +1,3 @@
-// Usage: gcc main.c layers/*.c utils/*.c -o neural_net.exe && ./neural_net.exe
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
