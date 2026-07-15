@@ -11,7 +11,7 @@
 #include "layers/output_layer.h"
 
 // Define hyperparameters
-#define EPOCHS 30000
+#define EPOCHS 100000
 #define LR     0.5f
 
 int main(void) {
