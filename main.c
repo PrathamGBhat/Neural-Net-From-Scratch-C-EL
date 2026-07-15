@@ -9,7 +9,7 @@
 #include "layers/layer2.h"
 #include "layers/output_layer.h"
 
-#define EPOCHS 20000
+#define EPOCHS 50000
 #define LR     0.5f
 
 int main(void) {
